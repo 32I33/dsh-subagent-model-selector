@@ -1,0 +1,6 @@
+{
+  "meta": {
+    "title": "子智能体模型选择器",
+    "description": "选择子智能体模型时动态列出 DSH 当前已连接的全部模型，先选 provider，再选该 provider 下的 model。"
+  }
+}

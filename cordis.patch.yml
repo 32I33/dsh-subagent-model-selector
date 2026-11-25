@@ -1,0 +1,5 @@
+- insert:
+    - id: subagent-model-selector
+      name: dsh-subagent-model-selector
+      config:
+        enabled: true

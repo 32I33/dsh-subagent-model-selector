@@ -1,0 +1,6 @@
+{
+  "meta": {
+    "title": "Subagent model selector",
+    "description": "Offers every currently connected model when choosing a subagent model, with a cascading provider/model picker."
+  }
+}

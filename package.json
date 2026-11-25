@@ -1,0 +1,51 @@
+{
+  "name": "dsh-subagent-model-selector",
+  "version": "0.1.0",
+  "description": "Expose every currently connected DSH model to subagent model selection, with a cascading provider/model picker.",
+  "type": "module",
+  "license": "MIT",
+  "author": "32I33",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/32I33/dsh-subagent-model-selector.git"
+  },
+  "homepage": "https://github.com/32I33/dsh-subagent-model-selector#readme",
+  "bugs": {
+    "url": "https://github.com/32I33/dsh-subagent-model-selector/issues"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "scripts": {
+    "test": "node --test"
+  },
+  "keywords": [
+    "dsh",
+    "deepseek-harness",
+    "cordis-plugin",
+    "subagent",
+    "model-selection",
+    "model-picker",
+    "cascading-picker",
+    "llm"
+  ],
+  "exports": {
+    ".": "./index.js",
+    "./locale/*.json": "./locale/*.json",
+    "./icon": "./icon.svg"
+  },
+  "files": [
+    "index.js",
+    "cordis.patch.yml",
+    "locale/*.json",
+    "icon.svg",
+    "README.md",
+    "CHANGELOG.md",
+    "LICENSE"
+  ],
+  "dsh": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    }
+  }
+}
